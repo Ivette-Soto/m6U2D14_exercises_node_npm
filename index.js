@@ -18,7 +18,7 @@ const app = express();
         console.log("App listening at port 80")
     });
 
-// Section C:  Define Middlewares and Roustes
+// Section C:  Define Middlewares and Routes
 
 // EXERCISE 1
 // function send(to, subject, text){}
@@ -47,9 +47,8 @@ const app = express();
 console.log(chalk.bgYellowBright.green(process.env.MAILER_USER));
 
 // EXERCISE 3
-
 let id = uuidv4()
-const idx_ultimo = id.length - 1;
+// const idx_last = id.length - 1;
 const idx_6 = id.length - 6;
 console.log(id.slice(idx_6));
 
